@@ -1,0 +1,22 @@
+# Credenciales
+.env
+
+# Datos
+data/input/
+data/output/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
