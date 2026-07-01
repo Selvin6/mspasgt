@@ -1,0 +1,41 @@
+nombre_grupo_etario_fuente_origen,id_dge
+< 1 mes,3
+<1 mes,3
+<1m,3
+1m a < 2m,4
+1m a <2m,4
+1m-2m,4
+2m a < 1 año,5
+2m a <1a,5
+2m-1a,5
+6 Meses a < 1 Año,24
+1a a 4 años,6
+1a-4a,6
+1 a < 2 Años,25
+2 a < 3 Años,26
+3 a < 4 Años,27
+4 a < 5 Años,28
+5 a 9 años,7
+5a a 9 años,7
+10 a 14 años,8
+10a a 14 años,8
+15 a 19 años,9
+15a a 19 años,9
+20 a 24 años,10
+20a a 24 años,10
+25 a 29 años,11
+30 a 34 años,12
+35 a 39 años,13
+25a a 39 años,14
+40 a 44 años,15
+45 a 49 años,16
+40a a 49 años,17
+50 a 54 años,18
+55 a 59 años,19
+50a a 59 años,20
+60 a 64 años,21
+60a a 64 años,21
+65 a 69 años,22
+65a a 69 años,22
+70+,23
+70a+,23

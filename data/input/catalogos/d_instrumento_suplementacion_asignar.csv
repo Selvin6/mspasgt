@@ -1,0 +1,7 @@
+id_isp,codigo_instrumento_suplementacion,instrumento_suplementacion,descripcion,estado
+1,NC,No conocido,"El dato existe en la fuente, pero viene vacío, nulo o no identificado",Activo
+2,NA,No aplica,El conjunto de datos no maneja instrumento de suplementación,Activo
+3,AF,Acido fólico,Suplementación con ácido fólico,Activo
+4,SF,Sulfato ferroso,Suplementación con sulfato ferroso,Activo
+5,VA,Vitamina A,Suplementación con vitamina A,Activo
+6,VME,Vitaminas y Minerales Espolvoreados,Suplementación con vitaminas y minerales espolvoreados,Activo

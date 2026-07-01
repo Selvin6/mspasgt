@@ -1,0 +1,46 @@
+id_fd,codigo_fuente_dataset,categoria_dataset,fuente_dataset,anio_inicio,anio_fin,granularidad_geografica,nombre_dataframe
+1,CD_MDA,Desnutrición,Morbilidad por desnutrición aguda,2012,2024,Departamento y municipio,df_url_cd_mda_y12_24
+2,CD_MRD,Desnutrición,Morbilidad por retardo del desarrollo,2012,2024,Departamento y municipio,df_url_cd_mrd_y12_24
+3,CEC_2012,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2012,2012,2012,Departamento y municipio,df_url_cec_y12
+4,CEC_2013,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2013,2013,2013,Departamento y municipio,df_url_cec_y13
+5,CEC_2014,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2014,2014,2014,Departamento y municipio,df_url_cec_y14
+6,CEC_2015,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2015,2015,2015,Departamento y municipio,df_url_cec_y15
+7,CEC_2016,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2016,2016,2016,Departamento y municipio,df_url_cec_y16
+8,CEC_2017,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2017,2017,2017,Departamento y municipio,df_url_cec_y17
+9,CEC_2018,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2018,2018,2018,Departamento y municipio,df_url_cec_y18
+10,CEC_2019,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2019,2019,2019,Departamento y municipio,df_url_cec_y19
+11,CEC_2020,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2020,2020,2020,Departamento y municipio,df_url_cec_y20
+12,CEC_2021,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2021,2021,2021,Departamento y municipio,df_url_cec_y21
+13,CEC_2022,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2022,2022,2022,Departamento y municipio,df_url_cec_y22
+14,CEC_2023,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2023,2023,2023,Departamento y municipio,df_url_cec_y23
+15,CEC_2024,Enfermedades crónicas,Morbilidad por enfermedades crónicas 2024,2024,2024,Departamento y municipio,df_url_cec_y24
+16,ETPV_CHAGAS,Enfermedades transmitidas por vectores,Morbilidad por Chagas,2012,2024,Departamento y municipio,df_url_etpv_y12_24_cg
+17,ETPV_CHIKUNGUNYA,Enfermedades transmitidas por vectores,Morbilidad por chikungunya,2014,2024,Departamento y municipio,df_url_etpv_y14_24_ck
+18,ETPV_DENGUE_GRAVE,Enfermedades transmitidas por vectores,Morbilidad por dengue grave,2012,2024,Departamento y municipio,df_url_etpv_y12_24_dg
+19,ETPV_DENGUE,Enfermedades transmitidas por vectores,Morbilidad por dengue,2012,2024,Departamento y municipio,df_url_etpv_y12_24_de
+20,ETPV_MALARIA,Enfermedades transmitidas por vectores,Morbilidad por malaria,2012,2024,Departamento y municipio,df_url_etpv_y12_24_ma
+21,ETPV_ZIKA,Enfermedades transmitidas por vectores,Morbilidad por zika,2015,2024,Departamento y municipio,df_url_etpv_y15_24_zk
+22,MGM_NEONATAL,Morbilidad grupo materno,Morbilidad neonatal,2012,2024,Departamento y municipio,df_url_mgm_y12_24_nn
+23,MGM_MATERNA,Morbilidad grupo materno,Morbilidad materna,2012,2024,Departamento y municipio,df_url_mgm_y12_24_mt
+24,MGM_INFANTIL_2012_2015,Morbilidad grupo materno,Morbilidad infantil 2012-2015,2012,2015,Departamento y municipio,df_url_mgm_y12_15_if
+25,MGM_INFANTIL_2016_2019,Morbilidad grupo materno,Morbilidad infantil 2016-2019,2016,2019,Departamento y municipio,df_url_mgm_y16_19_if
+26,MGM_INFANTIL_2020_2023,Morbilidad grupo materno,Morbilidad infantil 2020-2023,2020,2023,Departamento y municipio,df_url_mgm_y20_23_if
+27,MGM_INFANTIL_2024,Morbilidad grupo materno,Morbilidad infantil 2024,2024,2024,Departamento y municipio,df_url_mgm_y24_if
+28,MIE_ETAS,Morbilidad infecciosa,Morbilidad por ETAs,2012,2024,Departamento y municipio,df_url_mie_y12_24_et
+29,MIE_IRAS,Morbilidad infecciosa,Morbilidad por IRAs,2012,2024,Departamento y municipio,df_url_mie_y12_24_ir
+30,PCM_2012,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2012,2012,2012,Departamento y municipio,df_url_pcm_y12
+31,PCM_2013,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2013,2013,2013,Departamento y municipio,df_url_pcm_y13
+32,PCM_2014,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2014,2014,2014,Departamento y municipio,df_url_pcm_y14
+33,PCM_2015,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2015,2015,2015,Departamento y municipio,df_url_pcm_y15
+34,PCM_2016,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2016,2016,2016,Departamento y municipio,df_url_pcm_y16
+35,PCM_2017,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2017,2017,2017,Departamento y municipio,df_url_pcm_y17
+36,PCM_2018,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2018,2018,2018,Departamento y municipio,df_url_pcm_y18
+37,PCM_2019,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2019,2019,2019,Departamento y municipio,df_url_pcm_y19
+38,PCM_2020,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2020,2020,2020,Departamento y municipio,df_url_pcm_y20
+39,PCM_2021,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2021,2021,2021,Departamento y municipio,df_url_pcm_y21
+40,PCM_2022,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2022,2022,2022,Departamento y municipio,df_url_pcm_y22
+41,PCM_2023,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2023,2023,2023,Departamento y municipio,df_url_pcm_y23
+42,PCM_2024,20 primeras causas de morbilidad,20 primeras causas de morbilidad 2024,2024,2024,Departamento y municipio,df_url_pcm_y24
+43,PCP,Producción de consultas y pacientes nuevos,Cantidad de pacientes nuevos y consultas atendidas,2012,2024,Departamento y municipio,df_url_pcp_y12_24
+44,SNM,Suplementación en niños menores de 5 años,Suplementación en niños menores de 5 años,2013,2024,Departamento y municipio,df_url_snm_y13_24
+45,INE_POB_PROYECTADA,Población,Población proyectada INE,2015,2030,"Departamento, municipio y sexo biológico",df_ine_poblacion_proyectada

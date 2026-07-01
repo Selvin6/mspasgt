@@ -1,0 +1,8 @@
+id_dma,codigo_modalidad_atencion,modalida_atencion,descripcion,estado
+1,NC,No conocido,"El dato existe en la fuente, pero viene vacío, nulo o no identificado",Activo
+2,NA,No aplica,El conjunto de datos no maneja modalidad de atención,Activo
+3,PN,Paciente Nuevo,Atención registrada como paciente nuevo,Activo
+4,PC,Primera Consulta,Primera consulta registrada,Activo
+5,RC,Reconsulta,Consulta posterior registrada,Activo
+6,EM,Emergencia,Atención por emergencia,Activo
+7,IC,Inter consulta,Atención por interconsulta,Activo
