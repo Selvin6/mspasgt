@@ -2,8 +2,8 @@
 .env
 
 # Datos
-data/input/
-data/output/
+# data/input/ # Como son publicos, no es necesario ignorarlos
+# data/output/ # Como son publicos, no es necesario ignorarlos
 
 # Logs
 logs/
