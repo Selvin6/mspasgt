@@ -35,12 +35,12 @@ MAPA_ID_DCIE = {
 }
 
 MAPA_ID_FD = {
-    "df_url_etpv_y12_24_cg": 16,
-    "df_url_etpv_y14_24_ck": 17,
-    "df_url_etpv_y12_24_dg": 18,
-    "df_url_etpv_y12_24_de": 19,
-    "df_url_etpv_y12_24_ma": 20,
-    "df_url_etpv_y15_24_zk": 21,
+    "chagas":       16,
+    "chikungunya":  17,
+    "dengue_grave": 18,
+    "dengue":       19,
+    "malaria":      20,
+    "zika":         21,
 }
 
 # Mapa canónico — 3 variantes de grupo etario según la fuente:

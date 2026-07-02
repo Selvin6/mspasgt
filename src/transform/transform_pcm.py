@@ -25,19 +25,19 @@ ID_DSS_PCM = 2  # Dosis: No aplica
 ID_ISP_PCM = 2  # Instrumento: No aplica
 
 MAPA_ID_FD = {
-    "df_url_pcm_y12": 30,
-    "df_url_pcm_y13": 31,
-    "df_url_pcm_y14": 32,
-    "df_url_pcm_y15": 33,
-    "df_url_pcm_y16": 34,
-    "df_url_pcm_y17": 35,
-    "df_url_pcm_y18": 36,
-    "df_url_pcm_y19": 37,
-    "df_url_pcm_y20": 38,
-    "df_url_pcm_y21": 39,
-    "df_url_pcm_y22": 40,
-    "df_url_pcm_y23": 41,
-    "df_url_pcm_y24": 42,
+    "y12": 30,
+    "y13": 31,
+    "y14": 32,
+    "y15": 33,
+    "y16": 34,
+    "y17": 35,
+    "y18": 36,
+    "y19": 37,
+    "y20": 38,
+    "y21": 39,
+    "y22": 40,
+    "y23": 41,
+    "y24": 42,
 }
 
 # Mapa canónico — casos especiales:

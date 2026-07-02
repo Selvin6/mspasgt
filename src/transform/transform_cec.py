@@ -25,19 +25,19 @@ ID_ISP_CEC = 2  # Instrumento: No aplica
 
 # Mapeo de nombre de DataFrame → id_fd
 MAPA_ID_FD = {
-    "df_url_cec_y12":  3,
-    "df_url_cec_y13":  4,
-    "df_url_cec_y14":  5,
-    "df_url_cec_y15":  6,
-    "df_url_cec_y16":  7,
-    "df_url_cec_y17":  8,
-    "df_url_cec_y18":  9,
-    "df_url_cec_y19": 10,
-    "df_url_cec_y20": 11,
-    "df_url_cec_y21": 12,
-    "df_url_cec_y22": 13,
-    "df_url_cec_y23": 14,
-    "df_url_cec_y24": 15,
+    "y12":  3,
+    "y13":  4,
+    "y14":  5,
+    "y15":  6,
+    "y16":  7,
+    "y17":  8,
+    "y18":  9,
+    "y19": 10,
+    "y20": 11,
+    "y21": 12,
+    "y22": 13,
+    "y23": 14,
+    "y24": 15,
 }
 
 # Mapa canónico de columnas — basado en repr() exactos de los DataFrames

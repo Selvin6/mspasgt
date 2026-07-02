@@ -35,8 +35,8 @@ ID_FD_GE_NULO = 28
 ID_DGE_DEFAULT = 1
 
 MAPA_ID_FD = {
-    "df_url_mie_y12_24_et": 28,  # ETAS
-    "df_url_mie_y12_24_ir": 29,  # IRAS
+    "etas": 28,  # ETAS
+    "iras": 29,  # IRAS
 }
 
 # Mapa canónico — casos especiales:
