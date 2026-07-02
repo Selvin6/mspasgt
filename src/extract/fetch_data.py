@@ -29,14 +29,12 @@ def extraer_cd() -> dict:
 # =============================================================
 # 2. Enfermedades crónicas
 # =============================================================
-def extraer_cec() -> pd.DataFrame:
-    """Extrae y consolida todos los años de enfermedades crónicas."""
-    dfs = []
-    for anio, url in URLS_CEC.items():
-        df = descargar_csv(url)
-        df["anio_fuente"] = anio
-        dfs.append(df)
-    return pd.concat(dfs, ignore_index=True)
+def extraer_cec() -> dict:
+    """Extrae datasets de enfermedades crónicas — un dict por año."""
+    return {
+        f"y{str(anio)[2:]}": descargar_csv(url)
+        for anio, url in URLS_CEC.items()
+    }
 
 
 # =============================================================
@@ -75,14 +73,12 @@ def extraer_mie() -> dict:
 # =============================================================
 # 6. 20 primeras causas de morbilidad
 # =============================================================
-def extraer_pcm() -> pd.DataFrame:
-    """Extrae y consolida todos los años de primeras causas de morbilidad."""
-    dfs = []
-    for anio, url in URLS_PCM.items():
-        df = descargar_csv(url)
-        df["anio_fuente"] = anio
-        dfs.append(df)
-    return pd.concat(dfs, ignore_index=True)
+def extraer_pcm() -> dict:
+    """Extrae datasets de 20 primeras causas de morbilidad — un dict por año."""
+    return {
+        f"y{str(anio)[2:]}": descargar_csv(url)
+        for anio, url in URLS_PCM.items()
+    }
 
 
 # =============================================================
@@ -107,7 +103,7 @@ def extraer_snm() -> pd.DataFrame:
 def extraer_todo() -> dict:
     """Ejecuta la extracción de todas las fuentes y retorna un diccionario."""
     print("Extrayendo desnutrición...")
-    cd  = extraer_cd()
+    cd = extraer_cd()
 
     print("Extrayendo enfermedades crónicas...")
     cec = extraer_cec()

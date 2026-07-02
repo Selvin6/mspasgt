@@ -29,12 +29,12 @@ ID_FD_SIN_SEXO = 23
 ID_DSB_DEFAULT = 2
 
 MAPA_ID_FD = {
-    "df_url_mgm_y12_24_nn": 22,  # Neonatal
-    "df_url_mgm_y12_24_mt": 23,  # Materna
-    "df_url_mgm_y12_15_if": 24,  # Infantil 2012-2015
-    "df_url_mgm_y16_19_if": 25,  # Infantil 2016-2019
-    "df_url_mgm_y20_23_if": 26,  # Infantil 2020-2023
-    "df_url_mgm_y24_if":    27,  # Infantil 2024
+    "neonatal":       22,  # Neonatal
+    "materna":        23,  # Materna
+    "infantil_12_15": 24,  # Infantil 2012-2015
+    "infantil_16_19": 25,  # Infantil 2016-2019
+    "infantil_20_23": 26,  # Infantil 2020-2023
+    "infantil_24":    27,  # Infantil 2024
 }
 
 # Mapa canónico — casos especiales:
