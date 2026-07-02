@@ -6,7 +6,7 @@
 
 # Datos
 # data/input/ # Como son publicos, no es necesario ignorarlos
-# data/output/ # Como son publicos, no es necesario ignorarlos
+data/output/
 
 # Logs
 logs/
