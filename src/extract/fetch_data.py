@@ -15,6 +15,7 @@ def descargar_csv(url: str, sep: str = ";") -> pd.DataFrame:
     """Descarga un CSV desde una URL y retorna un DataFrame."""
     respuesta = requests.get(url, timeout=60, verify=False)
     respuesta.raise_for_status()
+    respuesta.encoding = "utf-8-sig"
     return pd.read_csv(
         StringIO(respuesta.text),
         sep=sep,
