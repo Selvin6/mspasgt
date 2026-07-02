@@ -6,11 +6,22 @@ from src.config.settings import (
     URLS_MGM, URLS_MIE, URLS_PCM,
     URLS_PCP, URLS_SNM
 )
+import warnings
+warnings.filterwarnings("ignore", message="Unverified HTTPS request")
+
 
 
 def descargar_csv(url: str, sep: str = ";") -> pd.DataFrame:
     """Descarga un CSV desde una URL y retorna un DataFrame."""
-    return pd.read_csv(url, sep=sep)
+    respuesta = requests.get(url, timeout=60, verify=False)
+    respuesta.raise_for_status()
+    return pd.read_csv(
+        StringIO(respuesta.text),
+        sep=sep,
+        encoding="utf-8-sig",
+        on_bad_lines="skip",
+        engine="python"
+    )
 
 
 # =============================================================
