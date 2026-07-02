@@ -18,7 +18,6 @@ def descargar_csv(url: str, sep: str = ";") -> pd.DataFrame:
     return pd.read_csv(
         StringIO(respuesta.text),
         sep=sep,
-        encoding="utf-8-sig",
         on_bad_lines="skip",
         engine="python"
     )
