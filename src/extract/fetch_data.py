@@ -12,7 +12,12 @@ def descargar_csv(url: str, sep: str = ";") -> pd.DataFrame:
     """Descarga un CSV desde una URL y retorna un DataFrame."""
     respuesta = requests.get(url, timeout=60)
     respuesta.raise_for_status()
-    return pd.read_csv(StringIO(respuesta.text), sep=sep, encoding="utf-8-sig")
+    return pd.read_csv(
+        StringIO(respuesta.text),
+        sep=sep,
+        encoding="utf-8-sig",
+        on_bad_lines="skip"
+    )
 
 
 # =============================================================
