@@ -9,7 +9,9 @@ from src.config.settings import (
 import warnings
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
 
-
+# =============================================================
+# Funcion general de descarga de CSV desde URL
+# =============================================================
 
 def descargar_csv(url: str, sep: str = ";") -> pd.DataFrame:
     """Descarga un CSV desde una URL y retorna un DataFrame."""

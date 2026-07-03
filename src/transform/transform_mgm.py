@@ -24,7 +24,7 @@ ID_DMA_MGM = 2  # Modalidad: No aplica
 ID_DSS_MGM = 2  # Dosis: No aplica
 ID_ISP_MGM = 2  # Instrumento: No aplica
 
-# id_fd=23 (materna) no tiene columna sexo → se asigna id_dsb=2
+# id_fd=23 (materna) no tiene columna sexo, se asigna id_dsb=2 que corresponde a "No aplica"
 ID_FD_SIN_SEXO = 23
 ID_DSB_DEFAULT = 2
 
@@ -41,7 +41,7 @@ MAPA_ID_FD = {
 # nn → 'Diagnóstico ' con espacio, 'grupo etario' minúsculas,
 #       'sexo' minúsculas, 'cantidad' minúsculas
 # mt → no tiene sexo
-# if → 'Sexo' Title Case, 'Casos' en vez de 'cantidad'
+# if → 'Sexo' Comienzan en mayúsculas, 'Casos' en vez de 'cantidad'
 MAPA_CANONICO = {
     "Año":           "anio",
     "Departamento":  "departamento",
@@ -154,7 +154,7 @@ def transformar_mgm(dfs_mgm: dict, cat_ubicacion: pd.DataFrame,
     # 5. Dimensión SEXO BIOLOGICO
     df = asignar_id_sexo(df, col_sexo="sexo", mapeo_sexo=mapeo_sexo)
 
-    # Caso especial: id_fd=23 (materna) no tiene sexo → asignar id_dsb=2
+    # Caso especial: id_fd=23 (materna) no tiene sexo → asignar id_dsb=2 que corresponde a "No aplica"
     df.loc[
         (df["id_fd"] == ID_FD_SIN_SEXO) & (df["id_dsb"].isna()),
         "id_dsb"
