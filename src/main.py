@@ -2,9 +2,9 @@
 main.py — Punto de entrada del ETL MSPAS
 
 Orquesta el flujo completo:
-    Extract  → Descarga CSVs desde el portal de datos abiertos del MSPAS
-    Transform → Limpia, normaliza y asigna IDs de dimensiones
-    Load     → Consolida en h_mspas y exporta a CSV para Power BI
+    Extract:    Descarga CSVs desde el portal de datos abiertos del MSPAS
+    Transform:  Limpia, normaliza y asigna IDs de dimensiones
+    Load:       Consolida en h_mspas y exporta a CSV para Power BI
 """
 
 from src.extract.fetch_data import extraer_todo
